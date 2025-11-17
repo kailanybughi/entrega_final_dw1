@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel com 9 Imagens</title>
+  <link rel="stylesheet" href="style/carrossel_custom.css">
+</head>
+<body>
+  <div class="slider">
+
+  <!-- Rádio antes do .slides → necessário para funcionar -->
+  <input type="radio" name="radio-btn" id="radio1" checked>
+  <input type="radio" name="radio-btn" id="radio2">
+  <input type="radio" name="radio-btn" id="radio3">
+
+  <!-- Slides -->
+  <div class="slides">
+
+    <div class="slide">
+      <img src="./img/slide1.jpg">
+      <img src="./img/slide2.jpg">
+      <img src="./img/slide3.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="./img/slide4.jpeg">
+      <img src="./img/slide5.jpeg">
+      <img src="./img/slide6.jpg">
+    </div>
+
+    <div class="slide">
+      <img src="./img/slide7.jpg">
+      <img src="./img/slide8.jpg">
+      <img src="./img/slide9.jpg">
+    </div>
+
+  </div>
+
+  <!-- Navegação manual -->
+  <div class="manual-navigation">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+  </div>
+
+</div>
+
+  <!-- Script de troca automática -->
+  <script>
+let counter = 1;
+
+setInterval(() => {
+  document.getElementById('radio' + counter).checked = true;
+  counter++;
+  if (counter > 3) counter = 1;
+}, 7000);
+</script>
+
+
+</body>
+</html>

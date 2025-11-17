@@ -1,0 +1,47 @@
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'pie', // 🍕 tipo de gráfico alterado
+    data: {
+      labels: [
+        'Algorítmos',
+        'Engenharia de S.',
+        'Design Digital',
+        'Desenvolvimento W.',
+        'Sist. Operacionais',
+        'Modelagem de Dados'
+      ],
+      datasets: [{
+        label: 'Notas Primeiro Semestre',
+        data: [6, 10, 10, 5, 9.5, 10],
+        backgroundColor: [
+          'rgba(128, 0, 255, 0.8)',   // roxo
+          'rgba(54, 162, 235, 0.8)',  // azul
+          'rgba(255, 206, 86, 0.8)',  // amarelo
+          'rgba(255, 99, 132, 0.8)',  // vermelho
+          'rgba(75, 192, 192, 0.8)',  // verde água
+          'rgba(255, 159, 64, 0.8)'   // laranja
+        ]
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom', // legenda embaixo do gráfico
+        },
+        title: {
+          display: true,
+          text: 'Notas por Matéria — Primeiro Semestre'
+        }
+      }
+    }
+  });
+</script>

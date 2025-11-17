@@ -1,0 +1,61 @@
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: [
+        'Algorítmos',
+        'Engenharia de S.',
+        'Design Digital',
+        'Desenvolvimento W.',
+        'Sist. Operacionais',
+        'Modelagem de Dados'
+      ],
+      datasets: [{
+        label: 'Notas Primeiro Semestre',
+        data: [6, 10, 10, 5, 9.5, 10],
+        borderColor: 'rgba(160, 90, 255, 0.9)', // linha roxa 💜
+        backgroundColor: 'rgba(160, 90, 255, 0.6)', // cor dos pontos
+        tension: 0.1, // curva leve
+        fill: false, // sem preenchimento
+        pointRadius: 5, // tamanho dos pontos
+        pointHoverRadius: 7 // aumenta o ponto ao passar o mouse
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Notas por Matéria — Primeiro Semestre'
+        },
+        legend: {
+          position: 'bottom'
+        }
+      },
+      scales: {
+        x: {
+          title: {
+            display: true,
+            text: 'Matérias'
+          }
+        },
+        y: {
+          beginAtZero: true,
+          max: 10,
+          title: {
+            display: true,
+            text: 'Nota'
+          }
+        }
+      }
+    }
+  });
+</script>

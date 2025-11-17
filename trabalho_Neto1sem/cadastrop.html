@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="stylecadastro.css" />
+</head>
+<body>
+  <div class="container mt-4">
+    <form>
+      <h3 class="text-center mb-4">Cadastro Cliente</h3>
+
+      <!-- Linha 1 -->
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="nomeInput">Nome</label>
+          <input type="text" class="form-control" id="nomeInput"value="Kailany Bughi da Silva" />
+        </div>
+        <div class="form-group col-md-4">
+          <label for="emailInput">E-mail</label>
+          <input type="email" class="form-control" id="emailInput" value="kailanybughi@outlook.com" />
+        </div>
+        <div class="form-group col-md-4">
+          <label for="cpfInput">CPF</label>
+          <input type="text" class="form-control" id="cpfInput" value="459.671.288-32" />
+        </div>
+      </div>
+
+      <!-- Linha 2 -->
+      <div class="form-row">
+        <div class="form-group col-md-2">
+          <label for="rgInput">RG</label>
+          <input type="text" class="form-control" id="rgInput" value="59.241.721-9" />
+        </div>
+        <div class="form-group col-md-2">
+          <label for="data_nascInput">Data de Nascimento</label>
+          <input type="date" class="form-control" id="data_nascInput" value="2004-09-26" />
+        </div>
+        <div class="form-group col-md-2">
+          <label for="sexoInput">Sexo</label>
+          <input type="text" class="form-control" id="sexoInput"value="Feminino"/>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="celularInput">Celular</label>
+          <input type="text" class="form-control" id="celularInput" value="16991886984" />
+        </div>
+        <div class="form-group col-md-3">
+          <label for="bairroInput">Bairro</label>
+          <input type="text" class="form-control" id="bairroInput" value="Residencial Amazonas" />
+        </div>
+        
+      </div>
+
+      <!-- Linha 3 -->
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="enderecoInput">Logradouro</label>
+          <input type="text" class="form-control" id="enderecoInput" value="Avenida Rio Amazonas" />
+        </div>
+        <div class="form-group col-md-2">
+          <label for="numeroInput">Nº</label>
+          <input type="text" class="form-control" id="numeroInput" value="1405"/>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="cepInput">CEP</label>
+          <input type="text" class="form-control" id="cepInput" value="14406-010" />
+        </div>
+      </div>
+
+      <!-- Linha 4 -->
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="cidadeInput">Cidade</label>
+          <input type="text" class="form-control" id="cidadeInput" value="Franca" />
+        </div>
+        <div class="form-group col-md-2">
+          <label for="estadoInput">Estado</label>
+          <input type="text" class="form-control" id="estadoInput" value="São Paulo" />
+        </div>
+        <div class="form-group col-md-3">
+          <label for="cursoInput">Curso</label>
+          <input type="text" class="form-control" id="cursoInput" value="Desenvolvimento de Software Multiplataforma" />
+        </div>
+        <div class="form-group col-md-3">
+          <label for="periodo">Período</label>
+          <select class="form-control" id="periodo">
+            <option>Matutino</option>
+            <option selected>Noturno</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Linha 5 -->
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="faculdadeInput">Faculdade</label>
+          <input type="text" class="form-control" id="faculdadeInput"value="Fatec" />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="cidadefInput">Cidade da Faculdade</label>
+          <input type="text" class="form-control" id="cidadefInput" value="Franca"/>
+        </div>
+      </div>
+
+      <!-- Botões -->
+      <div class="form-row mt-3">
+        <div class="col text-center">
+          <button type="button" class="btn btn-salvar mr-2">Salvar</button>
+          <button type="button" class="btn btn-cancelar">Cancelar</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</body>
+</html>

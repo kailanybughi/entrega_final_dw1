@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "local": "Suíça",
+    "cidade": "Europa Central",
+    "descricao": "Entre montanhas, lagos e cidades encantadoras, a Suíça oferece cenários que conquistam qualquer visitante."
+  },
+  {
+    "id": 2,
+    "local": "Las Vegas",
+    "cidade": "Nevada, Estados Unidos",
+    "descricao": "A cidade tem mais quartos de hotel que qualquer outro lugar do mundo, com vida noturna intensa e cassinos mundialmente famosos."
+  },
+  {
+    "id": 3,
+    "local": "Paris",
+    "cidade": "França",
+    "descricao": "Com seus monumentos icônicos, cafés charmosos e ruas cheias de história, Paris encanta em cada detalhe."
+  },
+  {
+    "id": 4,
+    "local": "Cristo Redentor",
+    "cidade": "Rio de Janeiro",
+    "descricao": "Uma das sete maravilhas do mundo moderno, com vista panorâmica da cidade."
+  },
+  {
+    "id": 5,
+    "local": "Cataratas do Iguaçu",
+    "cidade": "Foz do Iguaçu",
+    "descricao": "Conjunto de cachoeiras impressionantes na fronteira entre Brasil e Argentina."
+  },
+  {
+    "id": 6,
+    "local": "Pelourinho",
+    "cidade": "Salvador",
+    "descricao": "Centro histórico com arquitetura colonial e cultura afro-brasileira vibrante."
+  },
+  {
+    "id": 7,
+    "local": "Chapada Diamantina",
+    "cidade": "Bahia",
+    "descricao": "Parque nacional com trilhas, cachoeiras e paisagens naturais exuberantes."
+  },
+  {
+    "id": 8,
+    "local": "Lençóis Maranhenses",
+    "cidade": "Barreirinhas",
+    "descricao": "Dunas de areia branca e lagoas cristalinas formadas pelas chuvas."
+  },
+  {
+    "id": 9,
+    "local": "Roma",
+    "cidade": "Itália",
+    "descricao": "Conhecida como a Cidade Eterna, abriga o Coliseu, o Vaticano e séculos de história e cultura europeia."
+  },
+  {
+    "id": 10,
+    "local": "Tóquio",
+    "cidade": "Japão",
+    "descricao": "Uma metrópole vibrante que une tradição e tecnologia, com templos antigos e arranha-céus futuristas."
+  },
+  {
+    "id": 11,
+    "local": "Sydney",
+    "cidade": "Austrália",
+    "descricao": "Lar da famosa Opera House e da praia de Bondi, combina cultura, natureza e clima ensolarado."
+  },
+  {
+    "id": 12,
+    "local": "Londres",
+    "cidade": "Reino Unido",
+    "descricao": "Com sua mistura de história e modernidade, oferece ícones como o Big Ben, o Palácio de Buckingham e o Museu Britânico."
+  },
+  {
+    "id": 13,
+    "local": "Dubai",
+    "cidade": "Emirados Árabes Unidos",
+    "descricao": "Famosa por seus arranha-céus luxuosos, shoppings gigantes e experiências no deserto."
+  },
+  {
+    "id": 14,
+    "local": "Nova York",
+    "cidade": "Estados Unidos",
+    "descricao": "A cidade que nunca dorme, com a Times Square, a Estátua da Liberdade e a Broadway."
+  },
+  {
+    "id": 15,
+    "local": "Atenas",
+    "cidade": "Grécia",
+    "descricao": "Berço da civilização ocidental, com ruínas históricas e vistas incríveis para a Acrópole."
+  }
+
+  ,
+{
+  "id": 16,
+  "local": "Ilhas Maldivas",
+  "cidade": "Oceano Índico",
+  "descricao": "Um paraíso tropical com águas cristalinas, bangalôs sobre o mar e um dos destinos mais românticos do mundo."
+},
+{
+  "id": 17,
+  "local": "Machu Picchu",
+  "cidade": "Cusco, Peru",
+  "descricao": "Antiga cidade inca nas montanhas dos Andes, cercada por paisagens espetaculares e rica em história."
+}
+]

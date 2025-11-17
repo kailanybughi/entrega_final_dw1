@@ -1,0 +1,29 @@
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Algorítmos', 'Engenharia de S.', 'Design Digital', 'Desenvolvimento W.', 'Sist. Operacionais', 'Modelagem de Dados'],
+      datasets: [{
+        label: 'Notas por Matéria — Primeiro Semestre',
+        data: [6, 10, 10, 5, 9.5, 10],
+        borderWidth: 1,
+        backgroundColor: 'rgba(160, 90, 255, 0.6)'
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+</script>

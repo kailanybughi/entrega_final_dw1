@@ -1,0 +1,68 @@
+/* Fundo lilás suave */
+body {
+  background-color: #f4e6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container principal */
+.slider {
+  width: 80%;
+  height: 500px;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  transition: transform 0.7s ease-in-out;
+}
+
+.slide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.slide img {
+  width: 32%;
+  border-radius: 10px;
+}
+
+/* Esconde os radio buttons */
+input[type="radio"] {
+  display: none;
+}
+
+#radio1:checked ~ .slides { transform: translateX(0); }
+#radio2:checked ~ .slides { transform: translateX(-100%); }
+#radio3:checked ~ .slides { transform: translateX(-200%); }
+
+.manual-navigation {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.manual-btn {
+  border: 2px solid #b06fff;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.manual-btn:hover {
+  background: #b06fff;
+}

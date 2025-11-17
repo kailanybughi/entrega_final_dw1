@@ -1,0 +1,10 @@
+body {
+    background-color: #f0f4ff; 
+}
+
+
+.tab-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;     
+}

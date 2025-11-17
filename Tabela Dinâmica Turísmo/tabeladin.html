@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Turismo</title>
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse; /* ← importante para as linhas se juntarem */
+    background: white;
+    border: 1px solid #aaa; /* borda externa */
+  }
+
+  th, td {
+    padding: 10px 12px;
+    border: 1px solid #aaa; /* ← bordas entre células */
+    text-align: left;
+  }
+
+  th {
+    background-color: #0066cc;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* alterna as cores das linhas */
+  }
+
+  tr:hover {
+    background-color: #e6f0ff;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>🌎 Pontos Turísticos</h1>
+  </header>
+
+  <main id="conteudo">
+    <!-- O JavaScript vai criar tudo aqui -->
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
